@@ -1,11 +1,14 @@
 package br.com.dio;
 
+import br.com.dio.model.Gato;
+
 public class Teste1 {
 	public static void main(String[] args) {
-		int a = 2;
-		int b = 5;
+		Livro livro = new Livro();
+		Gato gato = new Gato();
 			
-		System.out.println("Hello World" + (a+b));
+		System.out.println("gato");
+		System.out.println("livro");
 	}
 
 }
